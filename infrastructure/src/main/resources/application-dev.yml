@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://100.95.202.98:5432/controleestoque
+    username: admin
+    password: saps

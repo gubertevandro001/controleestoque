@@ -1,0 +1,5 @@
+rootProject.name = 'controleestoque'
+include 'domain'
+include 'application'
+include 'infrastructure'
+
