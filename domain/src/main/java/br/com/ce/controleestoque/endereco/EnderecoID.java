@@ -53,10 +53,10 @@ public class EnderecoID extends Identifier {
 
         @Override
         public void validate() {
-            chechkId();
+            checkId();
         }
 
-        private void chechkId() {
+        private void checkId() {
             final var id = enderecoId.getValue();
 
             if (id == null || id.isEmpty()) {
