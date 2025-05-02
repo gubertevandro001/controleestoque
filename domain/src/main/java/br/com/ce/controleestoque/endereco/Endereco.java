@@ -102,6 +102,6 @@ public class Endereco extends Entity<EnderecoID> {
 
     @Override
     public void validate(ValidationHandler handler) {
-
+        new EnderecoValidator(this, handler).validate();
     }
 }
